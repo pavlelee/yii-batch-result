@@ -19,7 +19,7 @@ class BatchResult implements \Iterator
     public $each = true;
 
     /**
-     * @var CActiveRecord
+     * @var \CActiveRecord
      */
     private $_model;
     private $_criteria;
@@ -75,6 +75,9 @@ class BatchResult implements \Iterator
         }
     }
 
+    /**
+     * fetch data
+     */
     protected function fetchData(){
         $criteria = $this->_criteria;
         $criteria->offset = $this->_offset;
