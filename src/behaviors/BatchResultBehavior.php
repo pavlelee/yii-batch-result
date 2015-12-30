@@ -10,7 +10,7 @@ namespace pavle\batch\behaviors;
 use pavle\batch\components\BatchResult;
 
 
-class BatchResultBehavior extends CActiveRecordBehavior
+class BatchResultBehavior extends \CActiveRecordBehavior
 {
     public $batchSize = 100;
 
