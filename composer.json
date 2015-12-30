@@ -1,0 +1,14 @@
+{
+    "name": "pavle/yii-batch-result",
+    "description": "yii's batch result extension",
+    "authors": [
+        {
+            "name": "Pavle Lee",
+            "email": "523260513@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "pavle\\batch\\": "src" }
+    }
+}
